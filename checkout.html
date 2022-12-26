@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="./css/cart.css">
+    <link rel="stylesheet" href="./css/checkout.css">
 </head>
 
 <body>
@@ -37,76 +37,57 @@
         </div>
         <div class="header-main">
             <div class="header-main-left">
-                <h1 class="header-main-title">Cart</h1>
+                <h1 class="header-main-title">Checkout</h1>
             </div>
         </div>
     </div>
 
-    <div class="cart">
-        <div class="cart-component">
-            <ul class="cart-component-head">
-                <li class="cart-title">Image</li>
-                <li class="cart-title">Product</li>
-                <li class="cart-title">Price</li>
-                <li class="cart-title">Quantity</li>
-                <li class="cart-title">Total</li>
-                <li class="cart-title">Remove</li>
-            </ul>
-        </div>
-        <div class="cart-items">
-            <ul class="cart-items-head">
-                <img class="cart-item cart-item-img" src="./img/product-1.png" alt="">
-                <li class="cart-item">Product 1</li>
-                <li class="cart-item">$49.00</li>
-                <div class="cart-item cart-item-quantity">
-                    <a class="quantity_minus quantity_change">-</a>
-                    <p class="quantity">0</p>
-                    <a class="quantity_plus quantity_change">+</a>
-                </div>
-                <li class="cart-item">$49.00</li>
-                <a class="cart-item cart-item-remove">X</a>
-            </ul>
-            <ul class="cart-items-head">
-                <img class="cart-item cart-item-img" src="./img/product-1.png" alt="">
-                <li class="cart-item">Product 1</li>
-                <li class="cart-item">$49.00</li>
-                <div class="cart-item cart-item-quantity">
-                    <a class="quantity_minus quantity_change">-</a>
-                    <p class="quantity">0</p>
-                    <a class="quantity_plus quantity_change">+</a>
-                </div>
-                <li class="cart-item">$49.00</li>
-                <a class="cart-item cart-item-remove">X</a>
-            </ul>
-        </div>
-        <div class="checkout">
-            <div class="checkout-cart">
-                <div class="checkout-cart-btns-section">
-                    <a class="checkout-cart-btns"  href="">Update Cart</a>
-                    <a class="checkout-cart-btns" href="">Continue Shopping</a>
-                </div>
-                <div class="checkout-cart-coupon">
-                    <h1 class="checkout-cart-coupon-title">Coupon</h1>
-                    <p class="checkout-cart-coupon-brief">Enter your coupon code if you have one.</p>
-                    <form class="checkout-cart-coupon-section">
-                        <input class="checkout-cart-coupon-input" type="text">
-                        <button class="checkout-cart-coupon-apply" type="submit">Apply Coupon</button>
-                    </form>
-                </div>
+    <div class="checkout">
+        <p class="returning-customer">Returning customer? <a class="returning-customer-redirection" href="">Click
+                here</a> to login</p>
+        <div class="checkout-section">
+            <div class="details-area">
+                <h1 class="details-area-title">Billing Details</h1>
+                <form class="details-area-form">
+                    <div class="input-area">
+                        <p class="input-title">First Name</p>
+                        <input class="details-input first_name_input" type="text">
+                    </div>
+                    <div class="input-area">
+                        <p class="input-title">Last Name</p>
+                        <input class="details-input last_name_input" type="text">
+                    </div>
+                    <div class="input-area">
+                        <p class="input-title">Company Name</p>
+                        <input class="details-input company_name_input" type="text">
+                    </div>
+                    <div class="input-area">
+                        <p class="input-title">Address</p>
+                        <input class="details-input address_input" type="text">
+                    </div>
+                    <div class="input-area">
+                        <input class="details-input" type="text">
+                    </div>
+                    <div class="input-area">
+                        <p class="input-title"></p>
+                        <input class="details-input" type="text">
+                    </div>
+                    <div class="input-area">
+                        <p class="input-title"></p>
+                        <input class="details-input" type="text">
+                    </div>
+                    <div class="input-area">
+                        <p class="input-title"></p>
+                        <input class="details-input" type="text">
+                    </div>
+                    <div class="input-area">
+                        <p class="input-title"></p>
+                        <input class="details-input" type="text">
+                    </div>
+                </form>
             </div>
-            <div class="checkout-billing">
-                <h1 class="checkout-billing-title">CART TOTALS</h1>
-                <div class="checkout-billing-total">
-                    <div class="checkout-billing-list">
-                        <p>Subtotal</p>
-                        <p>$230.00</p>
-                    </div>
-                    <div class="checkout-billing-list">
-                        <p>Total</p>
-                        <p>$230.00</p>
-                    </div>
-                </div>
-                <a class="checkout-billing-btn" href="./checkout.html">Proceed To Checkout</a>
+            <div class="billing-area">
+
             </div>
         </div>
     </div>
