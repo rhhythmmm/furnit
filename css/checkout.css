@@ -325,3 +325,132 @@ justify-content: space-between;
 .billing-area{
     width: 48%;
 }
+
+.coupon-code-title{
+    font-size: 4vh;
+    color: #2f2f2f;
+    font-weight: 600;
+    margin-bottom: 2vh;
+}
+
+.coupon-code-apply-area{
+    background-color: #ffffff;
+    color: #2f2f2f;
+    padding: 6vh 5vh;
+}
+
+.coupon-code-brief{
+    font-size: 2vh;
+    font-weight: 400;
+    margin-bottom: 2vh;
+}
+
+/* .coupon-code-input-area{
+    display: flex;
+} */
+
+.coupon-code-input{
+    width: 50%;
+    border: solid 0.6px #6a6a6a;
+    padding: 1.6vh 0vh;
+    border-radius: 1vh;
+    margin: 2vh 0vh;
+    color: #6a6a6a;
+    font-size: 1.8vh;
+    font-weight: 200;
+    padding-left: 2vh;
+}
+
+.coupon-code-apply-btn{
+    background-color: #2f2f2f;
+    color: #fff;
+    font-size: 1.9vh;
+    font-weight: 700;
+    padding: 2vh 3vh;
+    border-radius: 5vh;
+    margin-left: 2vh;
+}
+
+.coupon-code-area{
+    margin-bottom: 5vh;
+}
+
+.summary-title{
+    font-size: 4vh;
+    color: #2f2f2f;
+    font-weight: 600;
+    margin-bottom: 2vh;
+}
+
+.summary{
+    background-color: #fff;
+}
+
+.cart-billing{
+    grid-template-columns: 1fr 1fr;
+    color: #2f2f2f;
+}
+
+/* .billing-link{
+    grid-column: span 2;
+} */
+
+.cart-title{
+    margin: 0vh 5vh;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    font-size: 2.1vh;
+    font-weight: 400;
+    border-bottom: solid 1px lightgray;
+}
+
+.cart-title-main{
+    font-weight: 700;
+    border-bottom: solid 1.5px #7a7a7a ;
+}
+
+.cart-product-total{
+    font-weight: 600;
+}
+
+.cart-product-total-amt-1{
+    font-weight: 400;
+}
+
+.billing-link{
+    color: #2f2f2f;
+    margin: 3vh 5vh;
+    padding: 2vh 2vh;
+    border: solid 1px lightgray;
+}
+
+.billing-link-head{
+    color: #2f2f2f;
+    text-decoration: underline;
+
+}
+
+.place-order{
+    background-color: #2f2f2f;
+    color: #fff;
+    font-size: 1.9vh;
+    font-weight: 700;
+    padding: 2vh 3vh;
+    border-radius: 5vh;
+    
+}
+
+.place-order-section{
+    margin: 0vh 5vh;
+    padding-top: 5vh;
+    padding-bottom: 9vh;
+}
+
+.billing-link-popup{
+    color: #6a6a6a;
+    font-size: 1.9vh;
+    line-height: 3vh;
+    padding-top: 2vh;
+}
