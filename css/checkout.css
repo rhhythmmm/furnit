@@ -204,190 +204,124 @@ ul{
     padding-right: 1vh;
 }
 
-.shop{
-    display: flex;
-    margin : 10vh
-}
-
-.product-card{
-    width: 25%;
-}
-
-.product-img{
-    width: 100%;
-}
-
-.product-title{
-    color: #2f2f2f;
-    font-size: 2vh;
-    font-weight: 600;
-    text-align: center;
-    margin-top: 2vh;
-}
-
-.product-price{
-    margin-top: 1vh;
-    color: #2f2f2f;
-    font-size: 2.3vh;
-    font-weight:bolder;
-    text-align: center;
-}
-
-.cart-component-head{
-    color: #2f2f2f;
-    display: grid;
-    grid-template-columns: 16.6% 16.6% 16.6% 16.6% 16.6% 16.6% ;
-    justify-content: space-between;
-}
-
-.cart{
-    margin-left: 10vh;
-    margin-right: 10vh;
-}
-.cart-component{
-    padding-top: 10vh;
-}
-
-.cart-title{
-    text-align: center;
-    font-size: 2.5vh;
-    font-weight: 600;
-}
-
-.cart-component:first-child{
-    padding-bottom: 3vh;
-    border-bottom: solid 2px #555;
-    margin-bottom: 3vh;
-}
-
-.cart-items-head{
-    color: #2f2f2f;
-    display: grid;
-    grid-template-columns: 16.6% 16.6% 16.6% 16.6% 16.6% 16.6% ;
-    justify-content: space-between;
-    padding-bottom: 3vh;
-    margin-bottom: 3vh;
-    border-bottom: solid 0.5px #7a7a7a;
-}
-
-.cart-item{
-    margin: auto;
-}
-
-.cart-item-img{
-    width: 70%;
-
-}
-
-.cart-item-quantity{
-    display: flex;
-    justify-content: space-between;
-}
-
-.quantity_change{
-    width: 20%;
-    text-align: center;
-}
-
-.quantity{
-    width: 40%;
-    padding: 1vh 2vh;
-    background-color: #ffffff;
-    /* justify-content: center; */
-    margin-right: 2vh;
-    margin-left: 2vh;
-}
-
-.cart-item-remove{
-    color: #2f2f2f;
-}
-
 .checkout{
-    margin-top: 12vh;
-    display: flex;
-    justify-content: space-between;
-    margin-left: 10vh;
-    margin-right: 10vh;
+    margin-left: 7vh;
+    margin-right: 7vh;
+    margin-top: 10vh;
 }
 
-.checkout-cart{
-    width: 60%;
+.checkout-section{
+ display: flex;
+justify-content: space-between;
 }
 
-.checkout-billing{
-    width: 40%;
-}
-
-.checkout-cart-btns{
-    background-color: #2f2f2f;
-    color: #fff;
-    font-size: 1.9vh;
-    font-weight: 700;
-    padding: 2vh 3vh;
-    border-radius: 5vh;
-    margin-right: 20vh;
-}
-
-.checkout-cart-btns-section{
-    margin-bottom: 10vh;
-    display: flex;
-}
-
-.checkout-cart-coupon-title{
+.details-area{
+    width: 48%;
     color: #2f2f2f;
-    font-size: 3.5vh;
-    font-weight: 500;
-    margin-bottom: 2vh;
 }
 
-.checkout-cart-coupon-brief{
+.returning-customer{
     color: #6a6a6a;
-    font-size: 2vh;
-    font-weight: 400;
-    margin-bottom: 2vh;
-}
-
-.checkout-cart-coupon-input{
-    padding: 2vh 12vh;
-    border-radius: 1vh;
-    border: solid 0.5px #555;
-}
-
-.checkout-cart-coupon-apply{
-    background-color: #2f2f2f;
-    color: #fff;
-    font-size: 2.4vh;
-    font-weight: 800;
-    padding: 2vh 3vh;
-    border-radius: 5vh;
-    margin-left: 2vh;
-}
-
-.checkout-billing-title{
-    text-transform: uppercase;
-    margin-left: 25%;
-    color: #2f2f2f;
-    font-size: 4vh;
-    border-bottom: solid 0.5px #7a7a7a;
+    font-size: 1.8vh;
+    border: solid .6px #6a6a6a;
+    border-radius: 0.4vh;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    padding-left: 2vh;
     margin-bottom: 6vh;
 }
-.checkout-billing-total{
-    margin-left: 25%;
+
+.returning-customer-redirection{
     color: #2f2f2f;
-    margin-bottom: 7vh;
+    text-decoration: underline;
 }
-.checkout-billing-list{
+
+.details-area-title{
+    font-size: 4vh;
+    font-weight: 600;
+    margin-bottom: 2vh;
+}
+
+.details-area-form{
+    padding: 3vh 4vh;
+    background-color: #ffffff;
     display: grid;
-    grid-template-columns: 50% 50%;
-    margin-top: 3vh;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 4vh;
+}
+
+.company_name_div{
+    grid-column: span 2;
+}
+
+.details-input{
+    width: 100%;
+    border: solid 0.6px #6a6a6a;
+    padding: 1.6vh 0vh;
+    border-radius: 1vh;
+    margin: 2vh 0vh;
+    color: #6a6a6a;
+    font-size: 1.8vh;
+    font-weight: 200;
+    padding-left: 2vh;
+}
+
+
+.address_div{
+    grid-column: span 2;
+}
+
+.input-area-checkbox{
+    display: flex;
+    grid-column: span 2;
+    padding-bottom: 2vh;
+}
+
+.input-area-checkbox-title{
+    margin-left: 1vh;
+}
+
+.diff-address{
+    grid-column: span 2;
+}
+
+.input-new-account{
+    grid-column: span 2;
+    padding-left: 3vh;
+    padding-right: 3vh;
+}
+
+.input-new-account-brief{
+    color: #6a6a6a;
+    font-size: 1.8vh;
+    line-height: 2.7vh;
+    font-weight: 300;
+    margin-bottom: 2vh;
+}
+
+.input-new-account-title{
+    font-size: 2.4vh;
+    font-weight: 600;
+    margin-bottom: 1vh;
+}
+
+.account-input{
     margin-bottom: 3vh;
 }
-.checkout-billing-btn{
-    background-color: #2f2f2f;
-    color: #fff;
-    font-size: 2.4vh;
-    font-weight: 800;
-    padding: 2vh 3vh;
-    border-radius: 5vh;
-    margin-left: 25%;
+
+.order-notes{
+    grid-column: span 2;
+}
+
+.order-notes-title{
+    font-size: 2vh;
+}
+
+.order-notes-input{
+    text-align: left;
+    justify-content: left;
+}
+
+.billing-area{
+    width: 48%;
 }
