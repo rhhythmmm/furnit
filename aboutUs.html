@@ -148,38 +148,58 @@
     </div>
 
     <h1 class="testimonial-heading">Testimonial</h1>
-    <div class="testimonial-section">
-        <span class="testimonial-prev testimonial-btn">&#60;</span>
-        <div class="testimonial-card ">
-            <div class="testimonial" id="1">
-                <p class="testimonial-description">“Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis
-                    nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor
-                    tristique. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis
-                    egestas. Integer convallis volutpat dui quis scelerisque.”</p>
-                <img class="testimonial-img" src="./img/person-1.png" alt="">
-                <h3 class="testimonial-name">Maria Jones</h3>
-                <p class="testimonial-post">CEO, Co-Founder, XYZ Inc.</p>
-            </div>
-            <div class="testimonial" id="2">
-                <p class="testimonial-description">“Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis
-                    nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor
-                    tristique. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis
-                    egestas. Integer convallis volutpat dui quis scelerisque.”</p>
-                <img class="testimonial-img" src="./img/person-1.png" alt="">
-                <h3 class="testimonial-name">Maria Jones</h3>
-                <p class="testimonial-post">CEO, Co-Founder, XYZ Inc.</p>
-            </div>
-            <div class="testimonial" id="3">
-                <p class="testimonial-description">“Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis
-                    nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor
-                    tristique. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis
-                    egestas. Integer convallis volutpat dui quis scelerisque.”</p>
-                <img class="testimonial-img" src="./img/person-1.png" alt="">
-                <h3 class="testimonial-name">Maria Jones</h3>
-                <p class="testimonial-post">CEO, Co-Founder, XYZ Inc.</p>
+    <div class="slider">
+        <div class="slide">
+            <div class="testimonial">
+                <blockquote class="testimonial__text">
+                    Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada. Nullam
+                    ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. Pellentesque habitant
+                    morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer convallis volutpat
+                    dui quis scelerisque.
+                </blockquote>
+                <address class="testimonial__author">
+                    <img src="./img/person-1.jpg" alt="" class="testimonial__photo" />
+                    <h6 class="testimonial__name">Maria Jones</h6>
+                    <p class="testimonial__location">CEO, Co-Founder, XYZ Inc.</p>
+                </address>
             </div>
         </div>
-        <span class="testimonial-prev testimonial-btn">&#62;</span>
+
+        <div class="slide">
+            <div class="testimonial">
+                <blockquote class="testimonial__text">
+                    Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada. Nullam
+                    ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. Pellentesque habitant
+                    morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer convallis volutpat
+                    dui quis scelerisque.
+                </blockquote>
+                <address class="testimonial__author">
+                    <img src="./img/person-1.jpg" alt="" class="testimonial__photo" />
+                    <h6 class="testimonial__name">Maria Jones</h6>
+                    <p class="testimonial__location">CEO, Co-Founder, XYZ Inc.</p>
+                </address>
+            </div>
+        </div>
+
+        <div class="slide">
+            <div class="testimonial">
+                <blockquote class="testimonial__text">
+                    Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada. Nullam
+                    ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. Pellentesque habitant
+                    morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer convallis volutpat
+                    dui quis scelerisque.
+                </blockquote>
+                <address class="testimonial__author">
+                    <img src="./img/person-1.jpg" alt="" class="testimonial__photo" />
+                    <h6 class="testimonial__name">Maria Jones</h6>
+                    <p class="testimonial__location">CEO, Co-Founder, XYZ Inc.</p>
+                </address>
+            </div>
+        </div>
+
+        <button class="slider__btn slider__btn--left">&larr;</button>
+        <button class="slider__btn slider__btn--right">&rarr;</button>
+        <div class="dots"></div>
     </div>
 
 
@@ -236,6 +256,7 @@
         </div>
         </div>
     </div>
+    <script src="./script.js"></script>
 </body>
 
 </html>
